@@ -1,7 +1,28 @@
 aid: xsquire
-name: XSquire
-description: XSquire is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xsquire.png
+name: XSquare
+description: XSquare (listed as XSquire in the 500 Global portfolio) is a Dubai-based
+  B2B financial operations platform for the GCC, live across the UAE and Qatar. It
+  unifies e-invoicing, receivables collection via embedded payment links and QR codes
+  (card, Apple Pay, Google Pay, bank), supplier payables on corporate card, and
+  automatic invoice-to-payment reconciliation on a single ledger, with native ERP
+  integrations (Zoho, Xero, Wafeq, Odoo) and a PSP network (Tess, Telr, Geidea).
+  PCI DSS Level 1 v4 certified, UAE FTA e-invoicing ready (PEPPOL, structured XML),
+  and non-custodial by design through licensed PSP partners regulated by CBUAE and
+  QCB. Founded in 2023 by Tanvir Shah and Ashwin Shenoy; operates as XSquare Payment
+  Services LLC (Dubai) and XSquare LLC (Doha). No public developer API, docs, or
+  SDKs are published as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/xsquire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Payments
+- Invoicing
+- Reconciliation
+- B2B
+- Accounts Payable
+- Accounts Receivable
+- E-Invoicing
+- United Arab Emirates
+- Qatar
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://xsquare.biz
+- type: Pricing
+  url: https://xsquare.biz/pricing
+- type: Conformance
+  url: conformance/xsquire-conformance.yml
+- type: Compliance
+  url: https://xsquare.biz/pricing
+- type: LLMsTxt
+  url: llms/xsquire-llms.txt
+- type: DomainSecurity
+  url: security/xsquire-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

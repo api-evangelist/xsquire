@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://xsquare.biz (homepage compliance section) + https://xsquare.biz/pricing
+standards:
+- id: pci-dss
+  conforms: true
+  version: '4.0 Level 1'
+  evidence: 'Site states "PCI DSS Level 1 v4 certified - the highest tier of payment
+    security, audited annually" (pricing page) and "PCI DSS 4.0.1 Enterprise-grade
+    security" (homepage).'
+- id: peppol
+  conforms: true
+  status: ready
+  evidence: 'Homepage e-Invoicing section states "PEPPOL-ready, structured XML, ASP
+    integration".'
+- id: uae-fta-einvoicing
+  conforms: true
+  status: ready
+  evidence: 'Homepage states e-invoicing is "UAE FTA compliant" / "UAE FTA-ready -
+    built for the January 2027 e-Invoicing mandate".'
+- id: oauth2
+  conforms: false
+  evidence: No public API, OpenAPI, or OAuth surface published; /.well-known
+    discovery endpoints return 404.
+notes:
+- 'Non-custodial model: site states funds are distributed through licensed PSP
+  partners regulated by CBUAE (UAE) and QCB (Qatar); money never touches the
+  XSquare balance sheet.'
+- Mastercard B2B Partner - site states platform runs on Mastercard B2B program rails.
+- 'Legal entities: XSquare Payment Services LLC (Dubai, UAE) and XSquare LLC
+  (Doha, Qatar).'

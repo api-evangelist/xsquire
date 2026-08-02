@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+host: https://xsquare.biz
+note: Only the marketing host resolves. app.xsquare.io / api.xsquare.io shown in
+  site mockups do not resolve in DNS (no A records as of the probe date). No
+  well-known discovery documents are published.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

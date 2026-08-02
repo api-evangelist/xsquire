@@ -1,0 +1,22 @@
+# XSquare
+
+> XSquare (catalogued as XSquire, a 500 Global portfolio company) is a Dubai-based B2B financial operations platform for the GCC, live across the UAE and Qatar. It unifies e-invoicing, receivables collection (payment links, QR codes, card/Apple Pay/Google Pay/bank), supplier payables on corporate card, and automatic invoice-to-payment reconciliation on a single ledger, with native ERP integrations (Zoho, Xero, Wafeq, Odoo) and a PSP network (Tess, Telr, Geidea). PCI DSS Level 1 v4 certified; UAE FTA e-invoicing ready (PEPPOL, structured XML); non-custodial via licensed PSP partners regulated by CBUAE and QCB; Mastercard B2B Partner. Founded 2023 by Tanvir Shah and Ashwin Shenoy. No public developer API, documentation, or SDKs are published as of 2026-07-21.
+
+## Company
+
+- [Website](https://xsquare.biz): Product overview - invoicing, payments, reconciliation on one platform
+- [Product](https://xsquare.biz/xsquare_product): Receivables, payables, approval workflows, AP dashboard, ERP and PSP connections
+- [Pricing](https://xsquare.biz/pricing): Free platform; per-transaction card rates (domestic 2.50% + AED 1, international 3.25% + AED 1)
+- [About](https://xsquare.biz/about): Founding story, team, mission
+- [Case Studies](https://xsquare.biz/xsquare_case_studies): Customer stories
+
+## Catalog artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/xsquire/refs/heads/main/apis.yml): Machine-readable profile of this provider
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/xsquire/refs/heads/main/conformance/xsquire-conformance.yml): PCI DSS L1 v4, PEPPOL-ready, UAE FTA e-invoicing claims
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/xsquire/refs/heads/main/security/xsquire-domain-security.yml): TLS/HSTS/SPF/DMARC probe results
+- [Well-known](https://raw.githubusercontent.com/api-evangelist/xsquire/refs/heads/main/well-known/xsquire-well-known.yml): /.well-known discovery probe results (none published)
+
+## Contact
+
+- Email: hello@xsquare.biz
